@@ -1,0 +1,12 @@
+﻿数据库更改和迁移：python manage.py db init/migrate/upgrade
+Flask+uwsgi+Nginx+Ubuntu部署教程: http://www.cnblogs.com/knarfeh/p/5616515.html
+Flask+uwsgi+Nginx+Ubuntu部署教程: https://blog.csdn.net/A18373279153/article/details/78592249?locationNum=1&fps=1
+#安装所有需要的文件：pip install -r requirements.txt
+#快速安装所有需要的文件：pip freeze > requirements.txt
+'''
+升级requirements.txt的需求文件（即依赖库）
+pip install pur
+pur -r requirements.txt 升级
+'''
+两个datetime相减取秒数：(nowTime-oldEmail.createTime).seconds
+# uwsgi --ini uwsgi.ini
